@@ -17,4 +17,15 @@ nav ul {
     display: flex;
     justify-content: space-between;
     min-width: 300px;
-}
+    list-style-type: none;
+  }
+  
+  nav a {
+    color: #b9C6ae;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #fff;
+  }
