@@ -1,7 +1,20 @@
+* {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
     display: flex;
     flex-direction: column;
     line-height: 1.3;
+    position: relative;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -28,4 +41,90 @@ nav ul {
   
   nav a:hover {
     color: #fff;
+  }
+
+  .subHeader {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 150px;
+    background-image: url("../assets/images/background\ image.jpg");
+
+  }
+
+  .subHeader h3 {
+    color: white;
+  }
+
+  section {
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    margin-left: 100px;
+    margin-top: 100px;
+  }
+
+  section h1 {
+    display: flex;
+    margin-left: 100px;
+    width: 20%;
+    text-align: right;
+  }
+
+  .aboutMe p {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 100px;
+    width: 60%;
+    border-left: 5px solid black;
+  }
+
+  .work div {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 100px;
+    width: 60%;
+    border-left: 5px solid black;
+  }
+
+  .contactMe ul {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 100px;
+    width: 60%;
+    border-left: 5px solid black;
+  }
+
+  article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    min-width: 100px;
+    border: solid black;
+    border-width: 2px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .surfReport {
+    background-image: url(../assets/images/weather.jpg);
+  }
+
+  .ledWall {
+    background-image: url(../assets/images/led\ wall.jpg);
+  }
+
+  .calculator {
+    background-image: url(../assets/images/calculator.png);
+  }
+
+  .pastelPuzzels {
+    background-image: url(../assets/images/puzzle.png);
+  }
+
+  .runBuddy {
+    background-image: url(../assets/images/run\ buddy.jpg);
   }
