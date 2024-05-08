@@ -20,7 +20,7 @@ THEN I am taken to that deployed application
 THEN I am presented with a responsive layout that adapts to my viewport
 
 The fully functioning application will look like the following: 
-![Screenshot of working application](../professional-portfolio/assets/images/professionalPortfolio.png)
+![Screenshot of working application](./assets/images/professionalPortfolio.png)
 
 
 
