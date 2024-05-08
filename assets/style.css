@@ -99,32 +99,40 @@ nav ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100px;
+    height: 200px;
     min-width: 100px;
     border: solid black;
     border-width: 2px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     margin-right: 100px;
     background-size: cover;
     background-position: center;
+    color: white;
   }
+
+
 
   .surfReport {
     background-image: url(../assets/images/weather.jpg);
+    width: 95%;
   }
 
   .ledWall {
     background-image: url(../assets/images/led\ wall.jpg);
+    width: 45%;
   }
 
   .calculator {
     background-image: url(../assets/images/calculator.png);
+    width: 45%;
   }
 
   .pastelPuzzels {
     background-image: url(../assets/images/puzzle.png);
+    width: 45%;
   }
 
   .runBuddy {
     background-image: url(../assets/images/run\ buddy.jpg);
+    width: 45%;
   }
